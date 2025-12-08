@@ -1,6 +1,6 @@
 ### RPM external celeritas v0.6.3
 %define celeritas_gitversion %(echo %{realversion} | sed -e 's|^v||;s|-.*||')
-%define tag 58dce7f02515ff78c2958aa96c5d2dcb9797a313
+%define tag ddf6c690e37d53b56d001e6bf0c26cb1b14963fa
 Source: git+https://github.com/celeritas-project/celeritas?obj=develop/%{tag}&export=%{n}-%{realversion}&output=/%{n}-%{realversion}.tgz
 
 %define package_build_flags -Wall -Wextra -pedantic
